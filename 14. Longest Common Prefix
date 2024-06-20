@@ -1,0 +1,25 @@
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+
+        shortStrs =  strs[0]
+
+        for k in range(0,len(strs)):                    
+            if len(shortStrs) > len(strs[k]):
+                shortStrs = strs[k]
+
+        commonPre = ''
+        test = True
+
+        for i in range(0, len(shortStrs)):     
+            for k in range(1, len(strs)):       
+                if strs[0][i] != strs[k][i]:    #
+                    test = False
+                    return commonPre
+                else:
+                    test = True
+                
+            if test == True:
+                commonPre += strs[0][i]
+            
+        
+        return commonPre
