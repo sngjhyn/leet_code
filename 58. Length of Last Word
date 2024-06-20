@@ -1,0 +1,21 @@
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        s = s.strip()      # 문자열 양쪽에서 공백을 제거한다. 
+        max_word = []
+        if not s:
+            return 0
+
+        for i in range(-1, -len(s) - 1, -1):  # 거꾸로 돌아간다. 
+            if s[i] == " ":
+                break
+            else:
+                max_word.append(s[i])
+        return len(max_word)
+
+def main():
+    a = Solution()
+    b = "Hello World"
+    c = a.lengthOfLastWord(b)
+    print(c)
+
+if __name__ == '__main__': main()
