@@ -4,4 +4,5 @@
 <img width="923" alt="스크린샷 2024-06-20 오후 10 24 40" src="https://github.com/sngjhyn/leet_code/assets/164007754/2e069f4b-ebb0-4a1a-8edb-fd30a79fa4f2">
 <img width="922" alt="스크린샷 2024-06-20 오후 10 24 45" src="https://github.com/sngjhyn/leet_code/assets/164007754/e78f6ac8-ef81-4c63-ac6d-22cbcf224a15">
 <img width="291" alt="스크린샷 2024-06-20 오후 10 25 34" src="https://github.com/sngjhyn/leet_code/assets/164007754/a336cc7b-cd89-4913-ad22-c24bf2ea8dea">
-![image](https://github.com/sngjhyn/leet_code/assets/164007754/5f57353c-dbb2-4a62-92f4-55be7e114957)
+
+![스크린샷](https://github.com/sngjhyn/leet_code/assets/164007754/468c0f50-fec0-4b98-9753-b0c3c35c9d1e)
