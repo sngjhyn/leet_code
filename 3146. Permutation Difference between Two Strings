@@ -1,0 +1,8 @@
+class Solution:
+    def findPermutationDifference(self, s: str, t: str) -> int:
+        sindex = [0] * 26
+        for i in range(len(s)):
+            sindex[ord(s[i]) - ord('a')] = i
+        for i in range(len(t)):
+            sindex[ord(t[i]) - ord('a')] = i - sindex[ord(t[i]) - ord('a')]
+        return sum(abs(num) for num in sindex)
